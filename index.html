@@ -109,17 +109,4 @@
 		<h2>Contact</h2>
 		<a target="_blank" rel="noopener noreferrer" href="https://docs.superposition.so/partnerships/partnering-with-us">Use this form</a>
 	</body>
-	<script>
-		document.addEventListener("DOMContentLoaded", () => {
-		const rand = (id) => {
-		const ul = document.getElementById(id);
-		const items = Array.from(ul.children);
-		items.sort(() => Math.random() - 0.5);
-		ul.innerHTML = "";
-		items.forEach(item => ul.appendChild(item));
-		};
-		rand("contributors-list");
-		rand("friends-list");
-		});
-	</script>
 </html>
